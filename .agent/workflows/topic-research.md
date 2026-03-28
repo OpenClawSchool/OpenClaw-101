@@ -33,7 +33,7 @@ description: 토픽 리서치 — 주어진 주제에 대해 웹 검색·문서 
    ↓
 4. 구조화 정리 (Structure)
    ↓
-5. 최종 출력 (Output)
+6. GitHub 동기화 (Sync)
 ```
 
 ---
@@ -239,3 +239,13 @@ description: 토픽 리서치 — 주어진 주제에 대해 웹 검색·문서 
 - [ ] **OpenClaw 표준 포맷** (Concept-Example-Checklist)이 적용되었는가?
 - [ ] 에이전트가 **지식 문서로 바로 활용**할 수 있는 구조인가?
 - [ ] 사용자가 요청한 **범위와 목적**에 부합하는가?
+
+---
+
+## Step 6: GitHub 동기화 (Sync)
+
+리서치 노트 작성이 완료된 후 변경 사항을 GitHub 저장소에 푸시하여 동기화합니다.
+
+// turbo
+1. GitHub 푸시 명령 실행
+   `/push`

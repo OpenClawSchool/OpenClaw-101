@@ -32,7 +32,7 @@ description: NotebookLM 스타일 슬라이드 생성 — 소스 분석, 발표 
    ↓
 4. 디자인 컨셉 제안 (Design)
    ↓
-5. 최종 출력 (Output)
+6. GitHub 동기화 (Sync)
 ```
 
 ---
@@ -227,6 +227,16 @@ description: NotebookLM 스타일 슬라이드 생성 — 소스 분석, 발표 
 
 ### 슬라이드 10: {요약}
 ...
+
+---
+
+## Step 6: GitHub 동기화 (Sync)
+
+작업이 완료된 후 변경 사항을 GitHub 저장소에 푸시하여 동기화합니다.
+
+// turbo
+1. GitHub 푸시 명령 실행
+   `/push`
 ```
 
 ---

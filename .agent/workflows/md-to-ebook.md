@@ -69,6 +69,8 @@ sudo apt-get install texlive-full
 4. 변환 실행 (Convert)
    ↓
 5. 결과 확인 (Verify)
+   ↓
+6. GitHub 동기화 (Sync)
 ```
 
 ---
@@ -275,3 +277,13 @@ EPUB에 커스텀 CSS를 적용해줘
 - [ ] **한국어**가 깨지지 않는가?
 - [ ] 출력 파일이 정상 열리는가?
 - [ ] PDF 변환 시 **한국어 폰트**가 지정되었는가?
+
+---
+
+## Step 6: GitHub 동기화 (Sync)
+
+전자책 변환이 완료된 후 변경 사항을 GitHub 저장소에 푸시하여 동기화합니다.
+
+// turbo
+1. GitHub 푸시 명령 실행
+   `/push`
